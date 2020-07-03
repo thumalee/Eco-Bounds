@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/shopping_cart"
+            android:title="@string/menu_cart"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/icons8_search_38px"
+            android:title="@string/menu_search"
+            android:iconTint="@android:color/white"/>
+
+        <item
+            android:id="@+id/nav_centers"
+            android:icon="@drawable/ic_centers"
+            android:title="@string/nav_centers"
+            android:iconTint="@color/white"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings_30px"
+            android:title="@string/menu_settings"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_close_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="@string/menu_logout"
+            android:iconTint="@android:color/white"/>
+    </group>
+
+
+
+</menu>

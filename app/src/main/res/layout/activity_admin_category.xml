@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity"
+    android:background="@drawable/gradient_view">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New Product"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="65dp">
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/handbag"/>
+
+        <ImageView
+            android:id="@+id/i2"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/cellphone"/>
+
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/shoes"/>
+
+        <ImageView
+            android:id="@+id/i4"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/bottles"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="65dp">
+
+        <ImageView
+            android:id="@+id/i5"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/coat"/>
+
+        <ImageView
+            android:id="@+id/i6"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/tshirt" />
+
+        <ImageView
+            android:id="@+id/i7"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/dress"/>
+
+        <ImageView
+            android:id="@+id/i8"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/trousers"/>
+
+    </LinearLayout>
+
+
+     <Button
+         android:id="@+id/maintain_product_btn"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/linear2"
+         android:text="@string/editp"
+         android:layout_marginLeft="45dp"
+         android:layout_marginRight="45dp"
+         android:padding="17dp"
+         android:layout_marginTop="120dp"
+         android:textSize="18dp"
+         android:textAllCaps="false"
+         android:textColor="@color/white"
+         android:background="@drawable/buttons"
+         ></Button>
+
+
+</RelativeLayout>

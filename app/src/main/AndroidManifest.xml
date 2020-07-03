@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shoppingcart">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IntroScreen"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ResetPassword"
+            android:exported="true"/>
+        <activity android:name=".UpdateCompany" />
+        <activity
+            android:name=".ListCompany_User"
+            android:exported="true"
+            android:parentActivityName=".userprofile" />
+        <activity
+            android:name=".AdminMaintainProductActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CompanyList"
+            android:exported="true"
+            android:parentActivityName=".AdminActivity" />
+        <activity android:name=".AdminUserProductsActivity" />
+        <activity
+            android:name=".AddFinishedProducts"
+            android:exported="true" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminCategoryActivity"
+            android:exported="true"
+            android:parentActivityName=".AdminActivity" />
+        <activity
+            android:name=".AdminNewOrdersActivity"
+            android:exported="true"
+            android:parentActivityName=".AdminActivity" />
+        <activity
+            android:name=".cartActivity"
+            android:exported="true"
+            android:parentActivityName=".userprofile" />
+        <activity
+            android:name=".CompanyProfile"
+            android:exported="true"
+            android:parentActivityName=".userprofile" />
+        <activity
+            android:name=".ConfirmFinalOrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProductDetailsActivity"
+            android:exported="true"
+            android:parentActivityName=".userprofile" />
+        <activity
+            android:name=".RegisterCompany"
+            android:exported="true" />
+        <activity
+            android:name=".Search"
+            android:exported="true"
+            android:parentActivityName=".userprofile" />
+        <activity
+            android:name=".Settings"
+            android:exported="true"
+            android:parentActivityName=".userprofile" />
+        <activity
+            android:name=".signup"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".userprofile"
+            android:exported="true"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WelcomePage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

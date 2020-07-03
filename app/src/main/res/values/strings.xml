@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Eco-Bounds</string>
+    <string name="totPrice_tv">Total Price =</string>
+    <string name="proceed_checkout">Proceed to Checkout</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="user_log_btn">Login</string>
+    <string name="tv_already_user">Already a Member ? Login</string>
+    <string name="admin_log">Admin</string>
+    <string name="new_accnt_tv">New Account</string>
+    <string name="confirm_pw">Confirm Password</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="mobnum">Mobile Number</string>
+    <string name="new_accnt_btn">Create New account</string>
+    <string name="remember">Remember me</string>
+    <string name="forgotPass">Forgot password</string>
+    <string name="notadmin">Not an admin</string>
+    <string name="lap_cov">Laptop cover</string>
+    <string name="Quan3">Quantity = 3</string>
+    <string name="Price150">Price = Rs 150</string>
+    <string name="edit">Edit</string>
+    <string name="handbag">HandBag</string>
+    <string name="Quan1">Quantity = 1</string>
+    <string name="Price550">Price = Rs 550</string>
+    <string name="shipp">Shipping Details</string>
+    <string name="pay">Confirm and Pay</string>
+    <string name="payment_det">Payment Details</string>
+    <string name="checout_app_name">Checkout</string>
+    <string name="get_details">Get Details</string>
+    <string name="cus_name">Name </string>
+    <string name="card_num">Card Number</string>
+    <string name="delv_date">Delivery Date</string>
+
+    <string name="logphone">Phone Number</string>
+
+    --Reg val--
+    <string name="valfname">Enter a valid name</string>
+    <string name="vallname">Enter a valid name</string>
+    <string name="valemail">Enter a valid Email</string>
+    <string name="valphone">Enter a valid phone number</string>
+    <string name="valpass">Enter a valid password</string>
+    <string name="valconfpass">Passwords do not match</string>
+
+    --AddFinishedProducts--
+    <string name="pname">Product Name</string>
+    <string name="pdes">Product Description</string>
+    <string name="price">Product Price</string>
+    <string name="addP">Add Product</string>
+    <string name="addnewP">Add New Product</string>
+    <string name="addtoC">Add To Cart</string>
+    <string name="editp">Maintain Products</string>
+    <string name="applyc">Apply Changes</string>
+    <string name="delete">Delete Product</string>
+    <string name="addFinishedProducts_app_name">Add Finished Products</string>
+
+    --FinishedProducts--
+    <string name="grbag">Veno Insulated Reusable Grocery Bag</string>
+    <string name="cover">Looptworks Leather iPad Cover</string>
+    <string name="kebag">Keens Harvest Bag</string>
+    <string name="sp">Preserve Cutlery Set</string>
+    <string name="phoneC">Skateback iPhone back</string>
+
+
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_cart">My Cart</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_categories">Categories</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Log Out</string>
+
+    <string name="acc_cancel">Cancel</string>
+    <string name="acc_update">Update</string>
+    <string name="acc_pic">Profile Picture</string>
+    <string name="acc_fname">First Name</string>
+    <string name="acc_lname">Last Name</string>
+    <string name="acc_phone">Phone Number</string>
+    <string name="acc_email">Email</string>
+    <string name="acc_address">Address</string>
+    <string name="acc_security_ques">Set Security Questions</string>
+    <string name="close_text">If you close your account, you will lose access forever</string>
+    <string name="close_button">Close Account</string>
+
+
+    <string name="reg_com_email">Email</string>
+    <string name="reg_com_name">Company Name</string>
+    <string name="reg_com_add1">Address Line 1</string>
+    <string name="reg_com_add2">Address Line 2</string>
+    <string name="reg_com_add_city">City</string>
+    <string name="reg_com_phone">Phone</string>
+    <string name="reg_com_fax">Fax</string>
+    <string name="reg_com_pass">Password</string>
+    <string name="reg_com_conf_pass">Confirm Password</string>
+    <string name="reg_com_type">Company Type</string>
+    <string name="reg_com_type_coll">Collection Centre</string>
+    <string name="reg_com_type_pro">Production Centre</string>
+
+    <string name="Shopping_tot_price">Total Price =</string>
+    <string name="shopping_next">Next</string>
+    <string name="prod_name_shopping">Product Name</string>
+    <string name="prod_quan_shopping">Product Quantity</string>
+    <string name="prod_price_shopping">Product Price</string>
+    <string name="ConfrimedMsg">Your Final Order Has Been Placed. Soon it Will be Verified</string>
+
+
+    <string name="confirmOrderShippingDetails">Please Enter your Shipping Details</string>
+    <string name="confirmorderhint_fname">Your First Name</string>
+    <string name="confirmorderhint_lname">Your Last Name</string>
+    <string name="confirmorderhint_phoneNum">Your Phone Number</string>
+    <string name="confirmOrderaddress_hint">Your Home Address</string>
+    <string name="confirmmOrderaddress_city_hint">Your City</string>
+    <string name="confirmmOrder">Confirm Order</string>
+
+
+    <string name="admindash">Admin DashBoard</string>
+    <string name="admin_addproducts">Add Products</string>
+    <string name="admin_orders">View Orders</string>
+    <string name="admin_logout">Log Out</string>
+
+
+    <string name="admin_new_orders">New Orders</string>
+    <string name="fname_username">First Name</string>
+    <string name="address_city">Address, City</string>
+    <string name="date_time">Date Time</string>
+    <string name="Show_order_admin">Show Order</string>
+
+    <string name="admin_view_orders">Products</string>
+
+
+    <string name="prod_search">Product Name</string>
+    <string name="search_btn">Search</string>
+
+    <string name="confirm_payment">Confirm Payment</string>
+    <string name="enter_pay_textview">Please Enter Your Payment Details</string>
+
+
+    <string name="nav_centers">Centers</string>
+    <string name="add_centers">Centers</string>
+
+
+    --Company Profile--
+    <string name="Company_Email">Email</string>
+    <string name="Company_Phone">Phone Number</string>
+    <string name="Company_Fax">Fax Number</string>
+    <string name="Company_Type">Company Type</string>
+
+    --Company forms--
+
+    <string name="Company_Name">Company Name</string>
+    <string name="Form_Company_Email">Company Email</string>
+    <string name="Form_Company_City">City</string>
+    <string name="Form_Company_Type">Type-Collection/Product</string>
+    <string name="Register_Company">Register Company</string>
+    <string name="Update_Company">Update Details</string>
+
+
+    <string name="reset_answer">Answer the following security questions</string>
+    <string name="reset_phone">Enter your phone number</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="reset_ques1">What is your mother\'s maiden name?</string>
+    <string name="reset_ques2">What is your pet\'s name?</string>
+    <string name="reset_verfify">Verify</string>
+
+</resources>

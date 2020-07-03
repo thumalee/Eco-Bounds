@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity"
+    android:background="@drawable/background_login_signup">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/slogan_admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="27dp"
+                android:text="@string/admindash"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAlignment="center"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+
+            <Button
+                android:id="@+id/Productadd_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/slogan_admin"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="20dp"
+                android:text="@string/admin_addproducts"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                ></Button>
+
+
+            <Button
+                android:id="@+id/Centersadd_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Productadd_btn"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="20dp"
+                android:text="@string/add_centers"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                ></Button>
+
+            <Button
+                android:id="@+id/ViewOrders_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Centersadd_btn"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="20dp"
+                android:text="@string/admin_orders"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                ></Button>
+
+            <Button
+                android:id="@+id/admin_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ViewOrders_btn"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="20dp"
+                android:text="@string/admin_logout"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                ></Button>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

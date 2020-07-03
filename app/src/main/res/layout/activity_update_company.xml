@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login_signup"
+    tools:context=".UpdateCompany">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/disTvPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/Company_Phone"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/TvPhone"
+                android:layout_below="@id/disTvPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:id="@+id/disTvType"
+                android:layout_below="@id/TvPhone"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Company_Type"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/TvType"
+                android:layout_below="@id/disTvType"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content" />
+
+
+
+            <EditText
+                android:id="@+id/upcompanyName"
+                android:layout_below="@id/TvType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="@string/Company_Name"
+                android:inputType="textPersonName"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/upcompanyEmail"
+                android:layout_below="@id/upcompanyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="@string/Form_Company_Email"
+                android:inputType="textEmailAddress"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/upcompanyCity"
+                android:layout_below="@id/upcompanyEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="@string/Form_Company_City"
+                android:inputType="textPersonName"
+                android:textSize="14sp"/>
+
+            <EditText
+                android:id="@+id/upcompanyFaxNum"
+                android:layout_below="@id/upcompanyCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/Company_Fax"
+                android:inputType="number"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_below="@id/upcompanyFaxNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:text="@string/Update_Company"
+                android:background="@drawable/background_login_signup"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

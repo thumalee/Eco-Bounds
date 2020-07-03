@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterCompany"
+    android:background="@drawable/background_login_signup">
+
+    <ImageView
+        android:id="@+id/regi_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/sellerlogin"/>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_below="@+id/regi_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/companyType"
+                android:layout_margin="15dp"
+                android:background="@drawable/background_login_signup"
+                android:text="@string/Register_Company"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/companyEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/companyName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="@string/Form_Company_Email"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/companyCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/companyEmail"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="@string/Form_Company_City"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/companyPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/companyCity"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="@string/Company_Phone"
+                android:inputType="number"
+                android:padding="20dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/companyFaxNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/companyPhone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="@string/Company_Fax"
+                android:inputType="number"
+                android:padding="20dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/companyType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/companyFaxNum"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="40dp"
+                android:hint="@string/Form_Company_Type"
+                android:padding="20dp"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/companyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:hint="@string/Company_Name"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+
+

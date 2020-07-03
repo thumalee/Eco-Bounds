@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransperant">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img1"
+        android:layout_width="182dp"
+        android:layout_height="204dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="62dp"
+        android:src="@drawable/cocoshells" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img2"
+        android:layout_width="296dp"
+        android:layout_height="172dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="26dp"
+        android:src="@drawable/newspapers" />
+
+    <TextView
+        android:id="@+id/header1"
+        android:layout_below="@id/img2"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="We Buy!"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <TextView
+        android:id="@+id/para1"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="sans-serif"
+        android:text="text"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textAlignment="center"/>
+
+
+</RelativeLayout>

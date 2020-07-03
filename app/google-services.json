@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "37461357154",
+    "firebase_url": "https://ecobounds.firebaseio.com",
+    "project_id": "ecobounds",
+    "storage_bucket": "ecobounds.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37461357154:android:666fddc0e8f82ba0fcd73b",
+        "android_client_info": {
+          "package_name": "com.example.shoppingcart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37461357154-q7h69noe44ttgrhgl18d1mvraj1obmjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoppingcart",
+            "certificate_hash": "795605dccafd11aa15b12ea5118fd44fa3168f76"
+          }
+        },
+        {
+          "client_id": "37461357154-k66kqnv55cfpkgksmnihcro8asgh4al5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoppingcart",
+            "certificate_hash": "31b5a69b71816d3b58d0ebd1a2c265846ca2abb0"
+          }
+        },
+        {
+          "client_id": "37461357154-b11fpjgljnpfgthh12meaipgot8mr62v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWHkHZSQ1Ze4QhvlybTOmor5TdbC1A5mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37461357154-b11fpjgljnpfgthh12meaipgot8mr62v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

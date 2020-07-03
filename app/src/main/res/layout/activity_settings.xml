@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login_signup"
+    tools:context=".Settings">
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_settings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/close_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/acc_cancel"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentStart="true"/>
+
+                <TextView
+                    android:id="@+id/update_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="23dp"
+                    android:text="@string/acc_update"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/app_settings"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_profile_image"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/person" />
+
+            <TextView
+                android:id="@+id/profile_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_profile_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="148dp"
+                android:text="@string/acc_pic"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                />
+
+            <EditText
+                android:id="@+id/acc_fname"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_pic"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="20dp"
+                android:hint="@string/acc_fname"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/acc_lname"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/acc_fname"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="20dp"
+                android:hint="@string/acc_lname"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/acc_phone"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/acc_lname"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="20dp"
+                android:hint="@string/acc_phone"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/acc_email"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/acc_phone"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="20dp"
+                android:hint="@string/acc_email"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/acc_address"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/acc_email"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="20dp"
+                android:hint="@string/acc_address"
+                android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/security_questions_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/acc_address"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/acc_security_ques"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+
+
+                <Button
+                    android:id="@+id/close_accnt_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/red"
+                    android:text="@string/close_button"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/security_questions_btn"></Button>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/security_questions_btn"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/acc_address"-->
+    <!--        android:layout_marginStart="20dp"-->
+    <!--        android:layout_marginTop="17dp"-->
+    <!--        android:layout_marginEnd="20dp"-->
+    <!--        android:text="@string/acc_security_ques"-->
+    <!--        android:background="@color/colorPrimary"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="15sp" />-->
+
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/close_accnt_btn"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:background="@color/red"-->
+    <!--        android:text="@string/close_button"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:layout_margin="10dp"></Button>-->
